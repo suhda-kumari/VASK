@@ -1,8 +1,7 @@
 
-public class Merge_Sort {
+public class Merge_Sort implements SortingTechnique{
 
-	public static void main(String[] args) {
-     int a[]={38,27,43,3,9,82,10};
+	public  void sort(int a[]) {
      mergeSort(a,0,a.length-1);
      printArray(a);
 	}
